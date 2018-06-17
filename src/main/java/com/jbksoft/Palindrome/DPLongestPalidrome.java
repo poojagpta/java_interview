@@ -3,7 +3,15 @@ package com.jbksoft.Palindrome;
 public class DPLongestPalidrome {
 
     public static void main(String[] args) {
-        System.out.println(getLargestPalindrome("abaxabaxabybaxabyb"));
+
+        int x=1;
+
+        for(int i=0;i<3;i++){
+            x+=5*i;
+        }
+
+        System.out.println(x);
+        //System.out.println(getLargestPalindrome("abaxabaxabybaxabyb"));
     }
 
     public static int getLargestPalindrome(String str){
